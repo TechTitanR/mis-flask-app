@@ -117,7 +117,7 @@ http://127.0.0.1:5000/
 - A. 📝 Excel (XLSX)
 - B. 📄 PDF
 
--Location: Dashboard → Bottom Right Buttons
+- Location: Dashboard → Bottom Right Buttons
 
 ---
 
@@ -135,6 +135,6 @@ http://127.0.0.1:5000/
 ---
 
 ## 📧 Contact
-Rishi Bakliwal 🚀 
-[Email](rishibakliwaljain@gmail.com)
+- Rishi Bakliwal 🚀 
+- [Email](rishibakliwaljain@gmail.com)
 
