@@ -1,6 +1,14 @@
+databases:
+  - name: mis-flask-db
+
 services:
   - type: web
     name: mis-flask-app
     env: python
     buildCommand: ""
     startCommand: gunicorn app:app
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: mis-flask-db
+          property: connectionString
