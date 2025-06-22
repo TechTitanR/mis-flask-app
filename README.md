@@ -136,5 +136,5 @@ http://127.0.0.1:5000/
 
 ## 📧 Contact
 - Rishi Bakliwal 🚀 
-- [Email](rishibakliwaljain@gmail.com)
+- Email: rishibakliwaljain@gmail.com
 
