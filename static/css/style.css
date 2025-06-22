@@ -1,0 +1,99 @@
+/* style.css - Final Dark Mode + Hover + Login Styling */
+
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+h2, h3, h5 {
+    font-weight: 600;
+}
+
+/* Navbar */
+.navbar {
+    border-bottom: 2px solid #ccc;
+}
+
+/* Cards */
+.card {
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Tables */
+table tbody tr:hover {
+    background-color: #f1f1f1;
+    transform: scale(1.01);
+    transition: all 0.3s ease;
+}
+
+/* Buttons */
+.btn {
+    border-radius: 20px;
+    padding: 8px 16px;
+    transition: background 0.3s;
+}
+
+/* Dark Mode */
+.dark-mode {
+    background-color: #121212;
+    color: #eee;
+}
+
+.dark-mode .card {
+    background-color: #1e1e1e;
+    color: #fff;
+}
+
+.dark-mode table tbody tr:hover {
+    background-color: #333;
+}
+
+/* Login Page Styling */
+.login-card {
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+    background: white;
+}
+
+.dark-mode .login-card {
+    background: #1e1e1e;
+    color: #fff;
+}
+
+/* Toggle Dark Mode Button */
+.dark-toggle {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* Smooth transitions */
+* {
+    transition: all 0.3s ease;
+}
+
+.hover-row:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+    transform: scale(1.01);
+    transition: all 0.2s ease-in-out;
+}
+
+.dark-mode .hover-row:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
